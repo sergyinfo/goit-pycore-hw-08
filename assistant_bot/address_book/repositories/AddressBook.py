@@ -20,7 +20,7 @@ class AddressBook(UserDict):
     find_record -- returns the record if found
     """
 
-    storage = "./data/address_book.pickle"
+    storage = "./data/book.pickle"
 
     def load(self):
         """
