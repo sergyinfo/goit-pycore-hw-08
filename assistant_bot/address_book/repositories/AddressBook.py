@@ -33,7 +33,7 @@ class AddressBook(UserDict):
         None
 
         Raises:
-        FileNotFoundError -- if the file is not found
+        None
         """
         try:
             with open(self.storage, "rb") as file:
